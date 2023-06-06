@@ -72,3 +72,14 @@ section {
     border:1px solid black;
     margin-right: 1em;
 }
+
+.box {
+    color:white;
+    height:200px;
+    width: 200px;
+    background-color: gray;
+}
+
+p {
+    text-decoration: none;
+}
