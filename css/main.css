@@ -66,3 +66,9 @@ section {
     height: 200px;
     background-color: rgb(178, 214, 178);
 }
+
+.image {
+    width: 100px;
+    border:1px solid black;
+    margin-right: 1em;
+}
