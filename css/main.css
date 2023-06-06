@@ -20,10 +20,15 @@ header {
     background-color: blueviolet;
     color: white;
 }
+
 h1 {
     font-size: 40px;
 }    
 
+h2 {
+    display: block;
+    font-size: 20px;
+}
 nav ul {
     display: flex;
     justify-content:space-between;
@@ -39,4 +44,33 @@ nav li {
     display: inline-block;
     padding: 3;
     margin: 15px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+section {
+    flex: 3;
+    background-color: burlywood;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box {
+    color:rgb(5, 5, 5);
+    height: 200px;
+    width:200px;
+    background-color: rgb(178, 214, 178);
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#about-me {
+    /* width:100px;
+    height: 100px;
+    background-color:green; */
+
 }
