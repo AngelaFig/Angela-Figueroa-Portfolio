@@ -67,6 +67,10 @@ section {
     background-color: rgb(178, 214, 178);
 }
 
+p {
+    color:black;
+    text-decoration: none;
+}
 .image {
     width: 100px;
     border:1px solid black;
@@ -74,12 +78,34 @@ section {
 }
 
 .box {
-    color:white;
+    color:black;
     height:200px;
     width: 200px;
     background-color: gray;
 }
 
-p {
-    text-decoration: none;
+#my-work {
+    height: 50px;
+    display:inline;
+    text-align: center;
+
 }
+
+#about-me {
+    display: flex;
+
+}
+
+.image {
+    flex: 20%;
+}
+
+
+#about-me-text {
+    flex: 80%;
+}
+
+#project {
+    display: flex;
+}
+/* Add li flex props */
