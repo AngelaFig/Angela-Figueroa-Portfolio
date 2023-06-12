@@ -10,6 +10,6 @@ This project is a professional portfolio that contains information about me, Ang
 
 
 
-! [screenshot](img/Angela%20Figueroa_Portfolio.png)
+![photo of deployed site](img/Angela%20Figueroa_Portfolio.png)
 
 
