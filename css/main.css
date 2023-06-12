@@ -37,6 +37,8 @@ h2 {
     text-decoration: underline;
     font-size: 20px;
 }
+
+/* Navbar section */
 nav ul {
     display: flex;
     justify-content:space-between;
@@ -53,7 +55,7 @@ nav li {
     padding: 3;
     margin: 15px;
 }
-
+/* End of Navebar section */
 section {
     background-color: burlywood;
     padding: 20px;
@@ -64,10 +66,10 @@ section {
 
 .info-box {
     color:rgb(5, 5, 5);
-    height: 200px;
+    /* height: 100px; */
     background-color: rgb(178, 214, 178);
 }
-
+/* About Me Section */
 p {
     color:black;
     text-decoration: none;
@@ -79,13 +81,14 @@ p {
 }
 
 .box {
-    display:flex;
+    /* display:flex; */
     color:black;
     height:200px;
     width: 200px;
     background-color: gray;
 }
 
+/* My work section, including ul */
 #my-work {
     height: 50px;
     display:inline;
@@ -110,24 +113,19 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
-/* Add li flex props */
 
-#prework-project {
-    display: flex;
-
-}
-#prework-img {
-    height: 2px;
-    width: 2px;
-    flex:50%;
+#prework-image {
+    width: 100px;
 }
 
 #horiseon-project {
-    display: flex;
+    width: 100px;
+    height: 50%;
+    
 }
 
 #horiseon-image {
-flex: 40;
+height: 50%;
 }
 
 /* media querries */
@@ -144,8 +142,8 @@ flex: 40;
         width:100px;
     }
 
-.image {
+/* .image {
     width:100px;
     height:100px;
-}
+} */
 }
