@@ -90,7 +90,6 @@ p {
     height: 50px;
     display:inline;
     text-align: center;
-
 }
 
 #about-me {
@@ -99,12 +98,12 @@ p {
 }
 
 .image {
-    flex: 4%;
+    flex: 5%;
 }
 
 
 #about-me-text {
-    flex: 90%;
+    flex: 95%;
 }
 
 #project {
@@ -131,3 +130,22 @@ p {
 flex:40%;
 }
 
+/* media querries */
+
+@media screen and (max-width: 768px) {
+
+    nav li {
+        font-size: medium;
+        
+    }
+
+    .info-box {
+        height:auto;
+        width:100px;
+    }
+
+.image {
+    width:100px;
+    height:100px;
+}
+}
