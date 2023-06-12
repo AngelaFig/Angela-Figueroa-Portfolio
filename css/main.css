@@ -79,7 +79,7 @@ p {
 }
 
 .box {
-    display: flex;
+    display:flex;
     color:black;
     height:200px;
     width: 200px;
@@ -127,7 +127,7 @@ p {
 }
 
 #horiseon-image {
-flex:40%;
+flex: 40;
 }
 
 /* media querries */
