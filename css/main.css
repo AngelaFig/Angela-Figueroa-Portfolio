@@ -33,7 +33,8 @@ main {
     }
 
 h2 {
-    display: block;
+    display: inline-block;
+    text-decoration: underline;
     font-size: 20px;
 }
 nav ul {
@@ -97,15 +98,33 @@ p {
 }
 
 .image {
-    flex: 20%;
+    flex: 4%;
 }
 
 
 #about-me-text {
-    flex: 80%;
+    flex: 90%;
 }
 
 #project {
     display: flex;
 }
 /* Add li flex props */
+
+#prework-project {
+    flex:60%;
+
+}
+#prework-img {
+    height: 2px;
+    width: 2px;
+    flex:50%;
+}
+
+#horiseon-project {
+    flex:41%;
+}
+
+#horiseon-image {
+flex:40%;
+}
