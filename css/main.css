@@ -79,6 +79,7 @@ p {
 }
 
 .box {
+    display: flex;
     color:black;
     height:200px;
     width: 200px;
@@ -108,11 +109,12 @@ p {
 
 #project {
     display: flex;
+    flex-wrap: wrap;
 }
 /* Add li flex props */
 
 #prework-project {
-    flex:60%;
+    display: flex;
 
 }
 #prework-img {
@@ -122,7 +124,7 @@ p {
 }
 
 #horiseon-project {
-    flex:41%;
+    display: flex;
 }
 
 #horiseon-image {
